@@ -1,0 +1,48 @@
+/*h1{
+    /*to change the color of the background until the end of the screen to the h1 element in HTML file
+    background-color: rgb(10, 131, 237);
+    /*to change the color of the letters in HTML file
+    color:coral
+}
+*/
+
+/*The best way to do the work in CSS, is to have classes, because there could be many different h1 headings, and you
+might just want to change the specific class, not the headings that have h1 style*/
+
+/*calling the class with the .(dot)*/
+.myclass{
+    color:red;
+}
+.myclass2{
+    color:blue;
+}
+#test{
+    color:aquamarine;
+}
+.text{
+    background-color: black;
+    color:rgb(233, 147, 18)
+}
+/*Now geometric figures*/
+.square{
+    width:300px;
+    height:300px;
+    background-color: red;
+    border: 10px solid black;
+}
+.rectangle{
+    width: 500px;
+    height: 100px;
+    background-color: brown;
+    border: 7px solid black;
+}
+.circle{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: blue;
+    border:7px solid black
+    /*So in order to make a circle, first you have to make a square, and then afterwards, to make a 
+    perfect circle, just put border radius at 50%, not px but a percentage, the rest is similar*/
+
+}

@@ -1,0 +1,17 @@
+img{
+    display: block;
+    border: 5px solid black;
+    padding: 20px;
+    height: 500px;
+    display:flex;
+    float:left;
+    border-spacing: 0px 10px;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+#Mars{
+    box-sizing: 5px;
+    margin: 5px;
+    width: 5px;
+    height: 5px;
+}

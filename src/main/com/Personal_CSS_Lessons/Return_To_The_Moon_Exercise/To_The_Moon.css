@@ -1,0 +1,26 @@
+.navigation{
+    background-color: #ffffff;
+    color: #3a3a3a;
+    font-family: Gill Sans, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+a{
+    color: #002052;
+    text-decoration:underline;
+    background-blend-mode: normal
+}
+.header {
+	background-color: #202020;
+	background-image: url('https://www.nasa.gov/sites/default/files/styles/ubernode_alt_horiz/public/thumbnails/image/hls-eva-apr2020.jpg');
+    width:auto;
+    height: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding:20px;
+    text-align: center;    
+}
+.header img{
+    margin-bottom: 30px;
+}

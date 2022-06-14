@@ -11,12 +11,16 @@ might just want to change the specific class, not the headings that have h1 styl
 
 /*calling the class with the .(dot)*/
 .myclass{
-    color:red;
+    color:rgb(72, 73, 33)
 }
 .myclass2{
     color:blue;
 }
-#test{
+
+/*The hashtag '#' is an id selector used to target a single specific element with a unique id,
+ while a period '. ' is a class selector used to target multiple elements with a particular class*/
+/*Do an actual example with # later, write a p element stating you will do that*/
+ #test{
     color:aquamarine;
 }
 .text{
@@ -77,4 +81,34 @@ might just want to change the specific class, not the headings that have h1 styl
     padding:10px;
     left:50px;
     float:right;
+}
+.object1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin-left: 0px; /*0px will put it in the center*/
+    /*transform: translateX(100px);
+    transform: translateY(100px);
+    */
+}
+.object2{
+    width:200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 20px;
+    transform: translateY(-100px);
+    /*translateX and translateY margin and padding stays the same in idea, as default
+    and just brings down the object, or up so what does margin do?*/
+    /*margin-create space around elements, outside of any defined borders*/
+    /*What does transform: translateX(0px) do?
+    The translate() CSS function repositions an element in the horizontal
+     and/or vertical directions. Its result is a <transform-function> data type.*/
+
+     /*list-style: none takes away numbers/bullet points
+        header nav li{
+            display: inline;
+            inline vs inline block: inline will not allow vertical padding;
+            Understand the display property
+        }
+     */
 }

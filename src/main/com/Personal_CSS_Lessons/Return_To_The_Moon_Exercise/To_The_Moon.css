@@ -3,7 +3,7 @@
     color: #3a3a3a;
     font-family: Gill Sans, Arial, Helvetica, sans-serif;
     font-size: 15px;
-    margin-top: 70px;
+    margin-top: 80px; /*this is what movese the anchor elements up and down*/
     background: none; /*This is what helped me get rid of the  section divider in the picture.
                         Much better design.*/
 }
@@ -27,7 +27,7 @@ a {
 	padding: 50px;
     background-size: cover;
 	text-align:center;
-    height: 290px;
+    height: 310px;
     
 }
 .header img {

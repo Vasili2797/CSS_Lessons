@@ -3,52 +3,61 @@
     color: #3a3a3a;
     font-family: Gill Sans, Arial, Helvetica, sans-serif;
     font-size: 15px;
-    margin: 0;
+    margin-top: 70px;
     background: none; /*This is what helped me get rid of the  section divider in the picture.
                         Much better design.*/
 }
-a{
-    color:#ffffff;
+
+body {
+	background-color: #ffffff;
+	color: #3a3a3a;
+	font-family: Gill Sans, Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	margin: 0;
+}
+
+a {
+	color: #002052;
+}
+.header {
+	background-color: #202020;
+	background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2020_42/3420103/201014-nasa-illustration-artemis-jm-1058.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 50px;
+    background-size: cover;
+	text-align:center;
+    height: 290px;
+    
+}
+.header img {
+	margin-bottom: 30px;
+}
+
+.header nav a {
+	border-bottom: 2px solid #BE1E2D;
+	color: #ffffff;
+	margin: 0px 8px;
+	padding: 5px 8px;
+    margin-left: 10px;
+	text-decoration: none;
+
+    /*color:#ffffff;
     text-decoration:underline;
     text-underline-offset: 10px;
     margin: 10px;
     text-decoration-color: red;
     background-blend-mode: normal;
     position: relative;
-}
-.header {
-	background-color: #202020;
-	background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2020_42/3420103/201014-nasa-illustration-artemis-jm-1058.jpg');
-    width:1685px;
-    height: 320px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    padding:20px;
-    text-align: center;    
-}
-.header img{
-    margin-bottom: 30px;
-}
-.header nav a{
-    border-bottom: 2px solid #BE1E2D;
-	color: #ffffff;
-	margin: 0 8px;
-	padding: 5px 8px;
-	text-decoration: none;
+    */
 }
 .header nav a:hover {
 	background: #BE1E2D;
 }
-.header nav a.active{
-    background:#ffffff;
-    color:#BE1E2D;
+.header nav a.active {
+	background: #ffffff;
+	color: #BE1E2D;
 }
 #emblem{
-    position: relative; top:40px;
-}
-#top_nav{
-    position: center;
-    vertical-align: bottom;
-    margin-bottom: 30%;
+    position: relative; top: 40px;
 }

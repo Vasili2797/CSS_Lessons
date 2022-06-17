@@ -4,18 +4,24 @@
     font-family: Gill Sans, Arial, Helvetica, sans-serif;
     font-size: 15px;
     margin: 0;
+    background: none; /*This is what helped me get rid of the  section divider in the picture.
+                        Much better design.*/
 }
-
 a{
-    color: #002052;
+    color:#ffffff;
     text-decoration:underline;
-    background-blend-mode: normal
+    text-underline-offset: 10px;
+    margin: 10px;
+    text-decoration-color: red;
+    background-blend-mode: normal;
+    position: relative;
 }
 .header {
 	background-color: #202020;
-	background-image: url('https://www.nasa.gov/sites/default/files/styles/ubernode_alt_horiz/public/thumbnails/image/hls-eva-apr2020.jpg');
-    width:auto;
-    height: 300px;
+	background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2020_42/3420103/201014-nasa-illustration-artemis-jm-1058.jpg');
+    width:1685px;
+    height: 320px;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     padding:20px;
@@ -23,4 +29,26 @@ a{
 }
 .header img{
     margin-bottom: 30px;
+}
+.header nav a{
+    border-bottom: 2px solid #BE1E2D;
+	color: #ffffff;
+	margin: 0 8px;
+	padding: 5px 8px;
+	text-decoration: none;
+}
+.header nav a:hover {
+	background: #BE1E2D;
+}
+.header nav a.active{
+    background:#ffffff;
+    color:#BE1E2D;
+}
+#emblem{
+    position: relative; top:40px;
+}
+#top_nav{
+    position: center;
+    vertical-align: bottom;
+    margin-bottom: 30%;
 }

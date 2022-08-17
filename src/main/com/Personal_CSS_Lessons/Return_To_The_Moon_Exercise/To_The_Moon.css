@@ -61,3 +61,7 @@ a {
 #emblem{
     position: relative; top: 40px;
 }
+.intro{
+	position: center;
+}
+/*To be able to indent in CSS: div.a {text-indent:50px}*/

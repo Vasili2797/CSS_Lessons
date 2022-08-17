@@ -1,0 +1,198 @@
+/* 
+Selector, CSS Rule
+h1 {
+   Declaration block
+   Declaration
+  color Property: value blue;
+
+  font-size: 3rem;
+}
+h2 {
+  color: cadetblue;
+  font-size: 2rem;
+}
+
+h1 {
+  color: red;
+}
+/*h2 {
+  color: green;
+}
+p {
+  color: grey;
+}
+h3,
+h4 {
+  color: black;
+}
+*/
+/*To be able to select the id in HTML use #
+#heading_with_id {
+  color: darkmagenta;
+  background: black;
+}
+/*To be able to select classes use .
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+#heading_with_id {
+  font-size: 40px;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+
+span {
+  text-transform: uppercase;
+}
+*/
+/*INHERITANCE
+body {
+  font-family: monospace;
+  line-height: 1.5em;
+}
+div {
+  color: goldenrod;
+}
+h2{
+  color: green;
+}
+.red{
+  color: red;
+}
+/*There is a universal selector, and it is * the star, it will select everything in the code.
+#first{
+  color:rgb(11, 90, 238);
+  background-color: chocolate;
+}
+#second{
+  color:crimson;
+  background: yellow;
+}
+body{
+  background-image:url('https://image.shutterstock.com/image-vector/hello-lettering-banner-poster-sticker-260nw-1114667741.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}*/
+/*RGBA 0-1 opacity/transparency
+#first{
+  color:rgb(100, 123, 56);
+  background: rgba(0, 0, 0, 0.5);
+}
+#second{
+  color: rgb(45, 200, 56);
+  background: rgba(0, 0, 0, 0.5);
+}
+#third{
+  color:rgb(255, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+}
+#fourth{
+  color:rgb(0, 0, 255);
+  background: rgba(0, 0, 0, 1);
+}
+body{
+  background: rgba(10, 10, 200, 0.33);
+}
+Now using the hex values
+#first{
+  color:#ff0000;
+  background: #00ff;
+}
+#second{
+  color:#fff;
+  background: #00ff00;
+}
+#third{
+  color:#0000ff;
+  background: #f15025;
+}
+#fourth{
+  color:#f234ad;
+  background: #222;
+}*/
+/*font-size, width, height, pixels
+.outer{
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+}
+.inner{
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  height:50%;
+  background: red;
+}
+em - RELATIVE depends on parent
+1em = 16px default browser style
+1em = base value
+
+div{
+  font-size: 20px;
+}
+.relative{
+  font-size: 2em;
+}
+.absolute{
+  font-size: 32px;
+}
+
+.banner{
+  width: 50vw;
+  height: 50vh;
+  background: red;
+}
+.header{
+  width: 100vw;
+  height: 100vh;
+  background: blue;
+}
+h1{
+  color:black
+}
+h2{
+  color: red;
+  font-size: 60px;
+}
+Now, let's try the calc() function
+perform operations + - *
+mix and match values
+
+
+*{
+  margin: 0;
+}
+.navbar{
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+.banner{
+  background:red;
+  min-height: calc(100vh - 100px);/*You have to make sure that there is a space between the operator and the numbers so that
+                                  the operator will work and the code knows that - sign is the operator
+}*/
+/*Font-stack generic-family
+  serif, sans-serif, cursive, fantasy, monospace
+
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+body{
+  font-family:'Roboto', sans-serif;
+}
+h1{
+  
+  font-family: 'Yesteryear', cursive;
+  font-style: italic;
+}*/
+h1{
+  text-align: center;
+  text-indent: 450px;
+  text-decoration:none; /*line-through gives a line through the letters, overline puts a line on top of the element*/
+}

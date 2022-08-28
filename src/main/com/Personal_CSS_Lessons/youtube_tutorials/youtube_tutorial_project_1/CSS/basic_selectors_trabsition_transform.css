@@ -1,0 +1,70 @@
+/*  Basic Selectors */
+/*  Descendants and Child Combinators*/
+/*
+.header h1{
+    color:green;
+}
+.header > h1{
+    color:purple;
+}
+div h1{
+    color:red;
+}
+div > h1{
+    color: blue;
+}
+
+/* p::first-line{
+    font-weight: bold;
+}
+p::first-letter{
+    font-size: 3rem;
+} 
+p:hover{
+    color:blue;
+}
+.header:hover{
+    background: blue;
+    color: white;
+}
+/*links can have the attributes of :visited :hover :active
+a:hover{
+    text-decoration:overline;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    color: green;
+}*/
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+div:hover{
+    background: coral;
+}
+.one{
+    background: red;
+    transform: scale(1.5, 0.8);
+    transform: skew(-20deg);
+}
+.two{
+    background: blue;
+    transform: translateY(300%);
+    transform: skew(30deg);
+}
+.three{
+    /*position: absolute; This was needed to achieve the z-index here
+    z-index: -10;*/
+    background: green;
+    transform: translate(30px, 40px);
+    transform: rotateZ(50deg);
+    transition-property: background, border-radius;
+    transition-duration: 5s, 3s;
+    transition-delay: 2s;
+}
+.three:hover{
+    border-radius: 50%;
+}

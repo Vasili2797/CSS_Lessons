@@ -189,14 +189,24 @@ p{
     height:200px;
     width: 33.33%;
 }
-*/
+
+button{
+    background: red;
+    font-size: 40px;
+    color: white;
+    position: fixed;/*So what this does is that when you scroll the browser up or down, the button will stay fixed on the particular place, where you originally placed it
+    top:0;
+    right:0;
+}
 div{
     border: 3px solid red;
     background: yellow;
     margin-top: 40px;
+    position: static;
 }
 .one{
     background: blue;
+    
 }
 .two{
     background: green;
@@ -204,4 +214,48 @@ div{
 .special{
     background: lightcoral;
     font-size: 20px;
+    position: absolute;
+    top:50%;
+    right: 50%;
+}*/
+body{
+    background: yellow;
 }
+.banner{
+    background: blue;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+/*the smallest syntax error is going to mess up everything in media screen stuff, so we have to be careful specifically here in the @media section*/
+@media screen and (max-width:576px){
+    body{
+        background: red;
+    }
+    .banner{
+        background: yellow;
+    }
+    h1{
+        color: black;
+        font-size: 60px;
+    }
+}
+
+/*
+@media screen and (min-width:768px){
+    body{
+        background: green;
+    }
+    .banner{
+        background: blue;
+    }
+    h1{
+        color:red;
+        font-size: 60px;
+        text-align: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}*/
